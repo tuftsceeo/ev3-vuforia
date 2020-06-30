@@ -1,6 +1,8 @@
 # ev3-vuforia
 A repository that connects EV3 to Vuforia Spatial Toolbox
 
+Requires zerorpc to be npm installed (npm install zerorpc) within the vuforia-spatial-edge-server folder, and also pip installed (pip install zerorpc) on your computer.
+
 Import the server.py and ports.py files to the EV3. Connect your EV3 to your computer by scanning for bluetooth devices on the EV3. Use the command system_profiler SPBluetoothDataType to find the Bluetooth MAC Address of the EV3. In line 10 of client.py change to the Bluetooth MAC Address of your EV3.
 
 Place client.py, config.html, and index.js in their own folder (I named mine EV3) under vuforia-spatial-robotic-addon/interfaces/.
