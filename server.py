@@ -6,6 +6,7 @@ Bluetooth using PyBluez (with Python 3.7).
 import code
 #import subprocess
 import bluetooth
+import os
 import time
 from ports import *
 
@@ -43,6 +44,11 @@ try:
                 try:
                     f = open("log.txt", 'r')
                     line = f.readline().rstrip()
+                    if (os.parth.getsize("log.txt") == 0):
+                        client.send("ignore")
+                    else:
+                        client.send(line)
+                    f.close()
                     #print(line)
                     client.send(line) # Echo back to client
                 except:
