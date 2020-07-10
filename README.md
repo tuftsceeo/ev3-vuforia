@@ -17,7 +17,7 @@ To establish a connection:
 * Run node server.js from the vuforia-spatial-edge-server folder
 * Run server.py on the EV3
 * Wait for server.py to print "up and running" (10-15 seconds)
-* Run client.py in a separate terminal screen (cd vuforia-spatial-edge-server/addons/.../interfaces/EV3
+* Run client.py in a separate terminal screen (cd vuforia-spatial-edge-server/addons/.../interfaces/EV3)
 * Go to http://localhost:8080 to configure and create your new EV3 interface
 * Under "Manage Hardware Interfaces" turn on EV3 and refresh the server. Go back to this tab and click on the settings icon next to EV3.
 * Give the object a name within hardware interfaces, (ex. test_ev3), and add an object with the same name under "Object Configuration"
